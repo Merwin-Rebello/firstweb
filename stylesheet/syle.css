@@ -1,0 +1,147 @@
+.container{
+    background-color: aqua;
+   display: flex;
+   border-radius: 30px;
+  
+}
+
+.container  li{
+    float:left;
+    list-style: none;
+    margin: 10px 20px;
+   
+}
+.container li a{
+    padding: 5px 5px;
+}
+
+a{
+color: rgb(250, 10, 90);
+}
+     
+a:hover{
+color:black;
+}    
+a:active{
+color: rgb(203, 194, 208);
+ }
+    .logo
+    {
+        float:left;
+        padding-right: 50px;
+        margin-top: px;
+    } 
+  .search{
+      
+        color: aliceblue;
+       /* float:right;*/
+        
+       text-align: center;
+        margin-top: 25px;
+       margin-left: 45%;
+       
+    }                
+    .search input{
+        border: 2px solid blue;
+        border-style: dotted;      
+        border-radius: 5px;
+        padding:3px 4px;
+    }
+    .logo
+    {
+        width: 20px;
+        height: 25px;
+        padding-top: 8px;
+        padding-bottom: 3px;
+        background: black;
+        background-image: url(../images/download.png);
+        
+    }
+    .logo__image
+    {
+        width:fit-content;
+        height: 5px;
+        object-fit: cover;
+    }
+   .box1{
+    background-color: rgb(32, 11, 149);
+    height:330px;
+    /*width: 100%; */
+    display:grid;
+    margin-top: 25px;
+    padding-top: 30px;
+   /* grid-template-rows: 110px 110px 110px;
+    grid-template-columns: 110px 110px 110px;*/
+    /*grid-template-rows: 1fr 1fr 1fr;*/
+    grid-template-columns: 1fr 1fr 1fr;
+    /*grid-template-columns: repeat(3,0.8fr);
+    grid-template-rows: repeat(3,0.8fr);*/
+    /*row-gap: 15px;*/
+    column-gap: 30px;
+    justify-items: center;
+    border-radius: 45px;
+   
+   }
+   .item{
+    background-color: rgba(5, 250, 58, 0.881);
+    height:300px;
+     width:180px; 
+    border-radius: 10px;
+    
+   }
+.photo1{
+    height:75px;
+    width: 75px;
+    background-color: rgb(17, 238, 231);
+    justify-content: center;
+    padding:10px 5px;
+    margin:10px 50px;
+    border-radius: 10px;
+    transition: 0.5s;
+    
+   }
+
+.photo2{
+        height:75px;
+        width: 75px;
+        background-color: rgb(17, 238, 231);
+        justify-content: center;
+        padding:10px 5px;
+        margin:10px 50px;
+        border-radius: 10px;
+        transition: 0.5s;
+       
+        background-repeat: no-repeat;
+       }
+       
+          
+.photo3{
+        height:75px;
+        width: 75px;
+        background-color: rgb(17, 238, 231);
+        justify-content: center;
+        padding:10px 5px;
+        margin:10px 50px;
+        border-radius: 10px;
+        transition: 0.5s;
+       } 
+       summary{
+    height: 30px;
+    width: 130px;
+    background-color: darkorchid;
+   padding-top: 5px;
+   border-radius:8px;
+}
+.photo1:hover{
+    transform:scale(1.9);
+    z-index:10;
+}
+.photo2:hover{
+    transform:scale(1.9);
+    z-index:10;
+}
+.photo3:hover{
+    transform:scale(1.9);
+    z-index:10;
+}   
+    
